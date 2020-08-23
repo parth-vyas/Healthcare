@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container",class="form-group">
+    
+    <h3>Enter the Following parameters :</h3>
+  <form action="/result" method="POST">
+    <label for="Age">Age : </label>
+    <input type="text" id="Age" name="Age" required>
+    <br>
+
+    <label for="Gender">Gender : </label>
+    <input type="text" id="Gender" name="Gender" required>
+    <br>
+
+    <label for="Total_Bilirubin">Total_Bilirubin : </label>
+    <input type="text" id="Total_Bilirubin" name="Total_Bilirubin" required>
+    <br>
+
+    <label for="Direct_Bilirubin">Direct_Bilirubin : </label>
+    <input type="text" id="Direct_Bilirubin" name="Direct_Bilirubin" required>
+    <br>
+
+    <label for="Alkaline_Phosphotase">Alkaline_Phosphotase : </label>
+    <input type="text" id="Alkaline_Phosphotase" name="Alkaline_Phosphotase" required>
+    <br>
+
+    <label for="Alamine_Aminotransferase">Alamine_Aminotransferase : </label>
+    <input type="text" id="Alamine_Aminotransferase" name="Alamine_Aminotransferase" required>
+    <br>
+
+    <label for="Aspartate_Aminotransferase">Aspartate_Aminotransferase : </label>
+    <input type="text" id="Aspartate_Aminotransferase" name="Aspartate_Aminotransferase" required>
+    <br>
+
+    <label for="Total_Protiens">Total_Protiens : </label>
+    <input type="text" id="Total_Protiens" name="Total_Protiens" required>
+    <br>
+
+    <label for="Albumin">Albumin : </label>
+    <input type="text" id="Albumin" name="Albumin" required>
+    <br>
+
+    <label for="Albumin_and_Globulin_Ratio">Albumin_and_Globulin_Ratio : </label>
+    <input type="text" id="Albumin_and_Globulin_Ratio" name="Albumin_and_Globulin_Ratio" required>
+    <br>
+    <br>
+
+    <input type="submit" value="Submit"><br><br>
+</form>
+
+
+    </div>
+{% endblock content %}

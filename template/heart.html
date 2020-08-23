@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container",class="form-group">
+
+    <h3>Enter the Following parameters :</h3>
+  <form action="/result" method="POST">
+    <label for="age">Age : </label>
+    <input type="text" id="age" name="age" required>
+    <br>
+
+    <label for="sex">Sex(1:Male,0:Female) : </label>
+    <input type="text" id="sex" name="sex" required>
+    <br>
+
+    <label for="chest pain type">Chest pain type : </label>
+    <input type="text" id="chest pain type" name="chest pain type" required>
+    <br>
+
+    <label for="trestbps">Trestbps : </label>
+    <input type="text" id="trestbps" name="trestbps" required>
+    <br>
+
+     <label for="serum cholestoral in mg/dl">Serum cholestoral in mg/dl : </label>
+    <input type="text" id="serum cholestoral in mg/dl" name="serum cholestoral in mg/dl" required>
+    <br>
+
+    <label for="restecg">Restecg : </label>
+    <input type="text" id="restecg" name="restecg" required>
+    <br>
+
+    <label for="thalach">Thalach : </label>
+    <input type="text" id="thalach" name="thalach" required>
+    <br>
+
+    <label for="exang">Exang : </label>
+    <input type="text" id="exang" name="exang" required>
+    <br>
+
+    <label for="oldpeak">Oldpeak : </label>
+    <input type="text" id="oldpeak" name="oldpeak" required>
+    <br>
+
+    <label for="slope">Slope : </label>
+    <input type="text" id="slope" name="slope" required>
+    <br>
+
+    <label for="thal">Thal : </label>
+    <input type="text" id="thal" name="thal" required>
+    <br>
+    <br>
+
+    <input type="submit" value="Submit"><br><br>
+</form>
+
+
+    </div>
+{% endblock content %}
