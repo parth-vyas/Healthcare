@@ -16,7 +16,6 @@ google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
 grpcio==1.31.0
 h5py==2.10.0
-idna @ file:///tmp/build/80754af9/idna_1593446292537/work
 importlib-metadata==1.7.0
 itsdangerous==1.1.0
 Jinja2==2.11.2
