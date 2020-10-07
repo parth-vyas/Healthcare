@@ -2,7 +2,7 @@ absl-py==0.9.0
 astor==0.8.1
 astunparse==1.6.3
 blinker==1.4
-brotlipy==0.7.0
+brotlipy==0.8.0
 cachetools @ file:///tmp/build/80754af9/cachetools_1596822027882/work
 certifi==2020.6.20
 cffi==1.14.0
